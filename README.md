@@ -97,6 +97,7 @@ bash install.sh
 
 ## 📖 Documentation
 
+- **[SAFETY.md](SAFETY.md)** - File protection rules & safety guarantees 🛡️
 - **[ZERO-TOUCH-MODE.md](ZERO-TOUCH-MODE.md)** - Complete automation guide ⭐
 - **[WHATS-NEW-V2.md](WHATS-NEW-V2.md)** - Dry-run, Reports, Uninstaller
 - **[WHATS-NEW-V3.md](WHATS-NEW-V3.md)** - TUI, Duplicate Finder, Scheduling
@@ -270,6 +271,17 @@ Your effort: 0
 - ✅ Old logs (>30 days)
 - ✅ Trash
 - ✅ Obvious duplicate files (smart rules apply)
+
+### Smart Duplicate Protection:
+**Priority System:**
+```
+Documents (Priority 0)  ← ALWAYS KEEP
+Desktop   (Priority 1)  ← KEEP if no Documents version
+Pictures  (Priority 2)  ← KEEP if no Desktop version
+Downloads (Priority 3)  ← DELETE FROM HERE FIRST
+```
+
+**Read [SAFETY.md](SAFETY.md) for complete protection rules!** 🛡️
 
 ---
 
